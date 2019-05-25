@@ -185,6 +185,7 @@ class Point(object):
                 self.shading = 0
         else:
             if info.x<0:
+            	self.shading = 3
             else:
             	self.shading = 1
 
